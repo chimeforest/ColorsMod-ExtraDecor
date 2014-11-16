@@ -1,0 +1,79 @@
+﻿2014-Nov-16 01:29:57.654323logger initialized
+2014-Nov-16 01:29:57.656324 | server | 1 |                              app | Stonehearth Version 0.1.0.156
+2014-Nov-16 01:29:57.749390 | server | 0 |                         lua.data | lua git is enabled
+2014-Nov-16 01:29:57.797424 | server | 1 |                        resources | Modules have been modified by the user!
+2014-Nov-16 01:29:57.817437 | server | 1 |                              app | Running Stonehearth server on port 63429
+2014-Nov-16 01:29:57.899496 | server | 0 | mod stonehearth.world_generation | initialize not implemented for world generation service!
+2014-Nov-16 01:29:57.905501 | server | 0 |                  mod stonehearth | greedy task scheduling enabled
+2014-Nov-16 01:29:57.933520 | server | 1 |                        resources | Error reading file colors-extradecor/entities/furniture/dining_table_cloth/dining_table_cloth_orange/dining_table_cloth_orange.json:
+
+Invalid JSON character detected (hi)
+
+Source:
+﻿{
+   "type" : "entity",
+   "mixins" : "file(dining_table_cloth_orange_ghost.json)",
+   
+   "components": {
+      "stonehearth:entity_forms" : {
+         "iconic_form" : "file(dining_table_cloth_orange_iconic.json)",
+         "ghost_form" : "file(dining_table_cloth_orange_ghost.json)",
+         "placeable_on_ground" : true,
+		 "placeable_category" : "Furniture"
+      },
+      "region_collision_shape": {
+         "region": [
+            {
+               "min" : { "x" : -0.5, "y" : 0, "z" : -0.5 },
+               "max" : { "x" :  1.5, "y" : 1, "z" :  1.5 }
+            }
+         ]
+      }
+   }
+}
+
+2014-Nov-16 01:29:57.933520 | server | 0 |                         lua.code | -- Script Error (lua) Begin ------------------------------- 
+2014-Nov-16 01:29:57.933520 | server | 0 |                         lua.code |    std::exception: 'Error reading file colors-extradecor/entities/furniture/dining_table_cloth/dining_table_cloth_orange/dining_table_cloth_orange.json:
+2014-Nov-16 01:29:57.934528 | server | 0 |                         lua.code |    
+2014-Nov-16 01:29:57.934528 | server | 0 |                         lua.code |    Invalid JSON character detected (hi)
+2014-Nov-16 01:29:57.934528 | server | 0 |                         lua.code |    
+2014-Nov-16 01:29:57.934528 | server | 0 |                         lua.code |    Source:
+2014-Nov-16 01:29:57.934528 | server | 0 |                         lua.code |    ﻿{
+2014-Nov-16 01:29:57.934528 | server | 0 |                         lua.code |       "type" : "entity",
+2014-Nov-16 01:29:57.934528 | server | 0 |                         lua.code |       "mixins" : "file(dining_table_cloth_orange_ghost.json)",
+2014-Nov-16 01:29:57.934528 | server | 0 |                         lua.code |       
+2014-Nov-16 01:29:57.934528 | server | 0 |                         lua.code |       "components": {
+2014-Nov-16 01:29:57.934528 | server | 0 |                         lua.code |          "stonehearth:entity_forms" : {
+2014-Nov-16 01:29:57.934528 | server | 0 |                         lua.code |             "iconic_form" : "file(dining_table_cloth_orange_iconic.json)",
+2014-Nov-16 01:29:57.934528 | server | 0 |                         lua.code |             "ghost_form" : "file(dining_table_cloth_orange_ghost.json)",
+2014-Nov-16 01:29:57.934528 | server | 0 |                         lua.code |             "placeable_on_ground" : true,
+2014-Nov-16 01:29:57.934528 | server | 0 |                         lua.code |    		 "placeable_category" : "Furniture"
+2014-Nov-16 01:29:57.934528 | server | 0 |                         lua.code |          },
+2014-Nov-16 01:29:57.934528 | server | 0 |                         lua.code |          "region_collision_shape": {
+2014-Nov-16 01:29:57.934528 | server | 0 |                         lua.code |             "region": [
+2014-Nov-16 01:29:57.934528 | server | 0 |                         lua.code |                {
+2014-Nov-16 01:29:57.934528 | server | 0 |                         lua.code |                   "min" : { "x" : -0.5, "y" : 0, "z" : -0.5 },
+2014-Nov-16 01:29:57.934528 | server | 0 |                         lua.code |                   "max" : { "x" :  1.5, "y" : 1, "z" :  1.5 }
+2014-Nov-16 01:29:57.934528 | server | 0 |                         lua.code |                }
+2014-Nov-16 01:29:57.934528 | server | 0 |                         lua.code |             ]
+2014-Nov-16 01:29:57.934528 | server | 0 |                         lua.code |          }
+2014-Nov-16 01:29:57.934528 | server | 0 |                         lua.code |       }
+2014-Nov-16 01:29:57.934528 | server | 0 |                         lua.code |    }
+2014-Nov-16 01:29:57.935523 | server | 0 |                         lua.code |    '
+2014-Nov-16 01:29:57.935523 | server | 0 |                         lua.code |    stack traceback:
+2014-Nov-16 01:29:57.935523 | server | 0 |                         lua.code |    	radiant/modules/events.luac:64: in function <radiant/modules/events.luac:64>
+2014-Nov-16 01:29:57.935523 | server | 0 |                         lua.code |    	[C]: in function 'load_json'
+2014-Nov-16 01:29:57.935523 | server | 0 |                         lua.code |    	radiant/modules/resources.luac:8: in function 'load_json'
+2014-Nov-16 01:29:57.935523 | server | 0 |                         lua.code |    	stonehearth/services/server/shop/shop_service.luac:36: in function '_alias_is_sellable_entity'
+2014-Nov-16 01:29:57.935523 | server | 0 |                         lua.code |    	stonehearth/services/server/shop/shop_service.luac:20: in function '_init_sellable_items'
+2014-Nov-16 01:29:57.935523 | server | 0 |                         lua.code |    	stonehearth/services/server/shop/shop_service.luac:6: in function 'initialize'
+2014-Nov-16 01:29:57.935523 | server | 0 |                         lua.code |    	stonehearth/stonehearth_server.luac:5: in function 'create_service'
+2014-Nov-16 01:29:57.935523 | server | 0 |                         lua.code |    	stonehearth/stonehearth_server.luac:8: in function 'self'
+2014-Nov-16 01:29:57.935523 | server | 0 |                         lua.code |    	radiant/modules/events.luac:74: in function <radiant/modules/events.luac:72>
+2014-Nov-16 01:29:57.935523 | server | 0 |                         lua.code |    	[C]: in function 'xpcall'
+2014-Nov-16 01:29:57.935523 | server | 0 |                         lua.code |    	radiant/modules/events.luac:72: in function <radiant/modules/events.luac:66>
+2014-Nov-16 01:29:57.935523 | server | 0 |                         lua.code | -- Lua Error End   ------------------------------- 
+2014-Nov-16 01:29:58.180693 | client | 1 |                          browser | cef started.
+2014-Nov-16 01:29:58.193703 | server | 2 |                          network | server allocating new send buffer (total: 0)
+2014-Nov-16 01:29:58.202711 | client | 2 |                          network | client allocating new send buffer (total: 0)
+2014-Nov-16 01:30:05.073822 | client | 0 |                renderer.renderer | window closed.  exiting process

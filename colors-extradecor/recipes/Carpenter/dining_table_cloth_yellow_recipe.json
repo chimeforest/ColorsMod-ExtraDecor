@@ -1,0 +1,26 @@
+﻿{
+	"type":"recipe",
+
+	"work_units"  : 3,
+	"recipe_name" : "Yellow Dining Table Cloth",
+	"description" : "The most elegant of tables.",
+	"flavor"      : "Better make sure it matches the curtians!",
+	"portrait"    : "entities/furniture/dining_table_cloth/dining_table_cloth_yellow/dining_table_cloth_yellow.png",
+	"level_requirement" : 2,
+
+	"ingredients": [
+		{
+			"material" : "wood resource",
+			"count" : 2
+		},
+		{
+			"material" : "yellow cloth resource",
+			"count" : 1
+		}
+	],
+	"produces": [
+		{
+			" item" : "colors-extradecor:dining_table_cloth_yellow"
+		}
+	]
+}

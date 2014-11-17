@@ -1,0 +1,7 @@
+﻿"dining_table_cloth_red" : "file(\entities\furniture\dining_table_cloth\dining_table_cloth_red\dining_table_cloth_red)",
+"dining_table_cloth_orange" : "file(\entities\furniture\dining_table_cloth\dining_table_cloth_orange\dining_table_cloth_orange)",
+"dining_table_cloth_yellow" : "file(\entities\furniture\dining_table_cloth\dining_table_cloth_yellow\dining_table_cloth_yellow)",
+"dining_table_cloth_green" : "file(\entities\furniture\dining_table_cloth\dining_table_cloth_green\dining_table_cloth_green)",
+"dining_table_cloth_blue" : "file(\entities\furniture\dining_table_cloth\dining_table_cloth_blue\dining_table_cloth_blue)",
+"dining_table_cloth_purple" : "file(\entities\furniture\dining_table_cloth\dining_table_cloth_purple\dining_table_cloth_purple)",
+"dining_table_cloth_undyed" : "file(\entities\furniture\dining_table_cloth\dining_table_cloth_undyed\dining_table_cloth_undyed)"

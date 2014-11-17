@@ -1,0 +1,7 @@
+﻿"dining_table_cloth_red":"file(/recipes/Carpenter/dining_table_cloth_red_recipe.json)",
+"dining_table_cloth_orange":"file(/recipes/Carpenter/dining_table_cloth_orange_recipe.json)",
+"dining_table_cloth_yellow":"file(/recipes/Carpenter/dining_table_cloth_yellow_recipe.json)",
+"dining_table_cloth_green":"file(/recipes/Carpenter/dining_table_cloth_green_recipe.json)",
+"dining_table_cloth_blue":"file(/recipes/Carpenter/dining_table_cloth_blue_recipe.json)",
+"dining_table_cloth_purple":"file(/recipes/Carpenter/dining_table_cloth_purple_recipe.json)",
+"dining_table_cloth_undyed":"file(/recipes/Carpenter/dining_table_cloth_undyed_recipe.json)"

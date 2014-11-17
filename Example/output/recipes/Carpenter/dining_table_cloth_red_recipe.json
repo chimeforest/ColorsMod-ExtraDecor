@@ -1,0 +1,26 @@
+﻿{
+   "type":"recipe",
+
+   "work_units"  : 3,
+   "recipe_name" : "Red Dining Table Cloth",
+   "description" : "The most elegant of tables.",
+   "flavor"      : "Better make sure it matches the curtains!",
+   "portrait"    : "\colors-extradecorentities/furniture/dining_table_cloth/dining_table_cloth_red\dining_table_cloth_red.png",
+   "level_requirement" : 2,
+
+   "ingredients": [
+      {
+         "material" : "wood resource",
+         "count" : 2
+      },
+	  {
+         "material" : "blue cloth resource",
+         "count" : 1
+      }
+  ],
+  "produces": [
+      {
+         "item":"colors-extradecor:dining_table_cloth_red"
+      }
+  ]
+}

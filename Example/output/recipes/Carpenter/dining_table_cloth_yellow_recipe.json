@@ -5,7 +5,7 @@
    "recipe_name" : "Yellow Dining Table Cloth",
    "description" : "The most elegant of tables.",
    "flavor"      : "Better make sure it matches the curtains!",
-   "portrait"    : "\colors-extradecorentities/furniture/dining_table_cloth/dining_table_cloth_yellow\dining_table_cloth_yellow.png",
+   "portrait"    : "/colors-extradecorentities/furniture/dining_table_cloth/dining_table_cloth_yellow/dining_table_cloth_yellow.png",
    "level_requirement" : 2,
 
    "ingredients": [

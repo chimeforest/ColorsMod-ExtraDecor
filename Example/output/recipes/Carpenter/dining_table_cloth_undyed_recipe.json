@@ -5,7 +5,7 @@
    "recipe_name" : "Undyed Dining Table Cloth",
    "description" : "The most elegant of tables.",
    "flavor"      : "Better make sure it matches the curtains!",
-   "portrait"    : "\colors-extradecorentities/furniture/dining_table_cloth/dining_table_cloth_undyed\dining_table_cloth_undyed.png",
+   "portrait"    : "/colors-extradecorentities/furniture/dining_table_cloth/dining_table_cloth_undyed/dining_table_cloth_undyed.png",
    "level_requirement" : 2,
 
    "ingredients": [
